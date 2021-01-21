@@ -62,6 +62,10 @@
     border-top-color:rgb(62,36,44);
 }
 
+.action:hover{
+  padding: 12px;
+}
+
 .action{
   width:33.3%;
   display:inline-block;  
@@ -70,6 +74,7 @@
   box-sizing:border-box; 
   padding:10px;
   cursor:pointer;
+  transition:padding 200ms;
 }
 
 .score-cont .stars img {
@@ -101,3 +106,18 @@
   height:115%;
   opacity:1;
 }
+
+#waiter img:hover{
+  content:url('./../img/28.1 campana_sel.svg');
+}
+
+#ticket img:hover{
+  content:url('./../img/28.3 cuenta_sel.svg');
+}
+
+#cancel img:hover{
+  content:url('./../img/28.4 cancelar_sel.svg');
+}
+
+
+
