@@ -41,8 +41,9 @@
     font-weight: bold;
     line-height: 50px;
     background:linear-gradient(to right, rgba(104,60,17,1)0%,rgba(219,209,199,0.4)51%,rgba(104,60,17,1)100%);
-    opacity: 0.8;
+    opacity: 0.8t;
     border-radius:20px; 
+    margin:5px 0 5px 0;
 }
 
 .actions-cont {
